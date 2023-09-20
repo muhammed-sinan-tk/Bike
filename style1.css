@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 50px;
+    /* font-size: 40px; */
+    /* font-weight: 400; */
+}
+
+.cards{
+    background-color:gainsboro;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cards label{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cards button{
+    width: 200px;
+   height: 30px;
+   background-color: orange;
+   color: #fff;
+   border: none;
+}

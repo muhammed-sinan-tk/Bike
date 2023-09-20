@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    margin-left: 10px;
+}
+.row img{
+    /* text-align: center;
+   margin-left: 40px; */
+
+   width: 100%;
+}
+
+.row a{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:576px) {
+    input {
+        display: none;
+    }
+
+    .ms i {
+       
+    }
+}
